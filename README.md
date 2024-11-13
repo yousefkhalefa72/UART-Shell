@@ -17,8 +17,8 @@ to use this shell.
    ```bash
    sudo ./uart_shell /dev/ttyUSB<x> <boudrate>
    ```
-(==ttyUSBx==) is your serial port
-supported (==boudrate==) are "9600" , "19200" , "38400" , "57600" , "115200"
+(ttyUSBx) is your serial port
+supported (boudrate) are "9600" , "19200" , "38400" , "57600" , "115200"
 
 4.  now you can transmit and receive normally.
 5. if you want to receive on file
@@ -32,7 +32,7 @@ supported (==boudrate==) are "9600" , "19200" , "38400" , "57600" , "115200"
 7. if you want to transmit file
    ```bash
    T<file
-```
+   ```
 
-this shell supported "==Empty Enter==" , "==back Space==" , "==Receive while incompletely transmit=="
+this shell supported "Empty Enter" , "back Space" , "Receive while incompletely transmit"
 
